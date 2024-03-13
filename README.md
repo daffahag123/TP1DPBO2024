@@ -90,9 +90,9 @@ Kemudian ke-3 kelas ini memiliki atribut price, dimana nantinya barang kunci, ra
 Penjelasan akan mendapat reward itu setelah kalian menjalankan quest dan bisa mengalahkan musuh.
 
 # Alur Program
-- Ketika program dijalankan, pemain akan diminta untuk mengisi data pribadi, cukup nama dan gender (jenis kelamin) kalian saja.
-- Setelah itu pemain akan diminta untuk memilih Main Character yang tersedia yaitu Nova, Jane, Sora, dan Aloy. Pilih sesuai dengan keinginan pemain.
-- Setelah karakter dipilih, maka karakter dapat melakukan sesuatu dalam game, ada 5 pilihan yang dapat dijalankan pemain, yaitu:
+Ketika program dijalankan, pemain akan diminta untuk mengisi data pribadi, cukup nama dan gender (jenis kelamin) kalian saja.
+Setelah itu pemain akan diminta untuk memilih Main Character yang tersedia yaitu Nova, Jane, Sora, dan Aloy. Pilih sesuai dengan keinginan pemain.
+Setelah karakter dipilih, maka karakter dapat melakukan sesuatu dalam game, ada 5 pilihan yang dapat dijalankan pemain, yaitu:
 1.	Berbicara dengan NPC
 2.	Bertarung dengan Musuh
 3.	Melihat Status Karakter
@@ -105,9 +105,7 @@ Penjelasan akan mendapat reward itu setelah kalian menjalankan quest dan bisa me
 3.	Membeli Barang dari Inventory NPC
 
 Jika memilih untuk menjalankan quest, maka akan diberi tawaran beberapa quest yang tersedia dari setiap NPC ini. Setelah menjalankan quest ini, maka akan diberikan reward.
-
 Jika memilih melihat status NPC, maka akan menampilkan informasi pribadi NPC.
-
 Jika memilih untuk membeli barang, maka NPC akan menwarkan barang-barang yang bisa dibeli oleh pemain.
 
 - Ketika pemain memilih bertarung dengan musuh, maka akan diminta untuk memilih musuhnya. Ada 2 musuh yang tersedia, yaitu Thor dan Zara. 
