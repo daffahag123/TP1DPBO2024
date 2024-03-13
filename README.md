@@ -89,4 +89,37 @@ Kemudian ke-3 kelas ini memiliki atribut price, dimana nantinya barang kunci, ra
       
 Penjelasan akan mendapat reward itu setelah kalian menjalankan quest dan bisa mengalahkan musuh.
 
+# Alur Program
+-	Ketika program dijalankan, pemain akan diminta untuk mengisi data pribadi, cukup nama dan gender (jenis kelamin) kalian saja.
+-	Setelah itu pemain akan diminta untuk memilih Main Character yang tersedia yaitu Nova, Jane, Sora, dan Aloy. Pilih sesuai dengan keinginan pemain.
+-	Setelah karakter dipilih, maka karakter dapat melakukan sesuatu dalam game, ada 5 pilihan yang dapat dijalankan pemain, yaitu:
+1.	Berbicara dengan NPC
+2.	Bertarung dengan Musuh
+3.	Melihat Status Karakter
+4.	Melihat Inventory Karakter
+5.	Keluar
+
+-	Ketika pemain memilih untuk berbicara dengan NPC maka akan diminta untuk berbicara dengan 2 orang pilihan yaitu ada Adrian dan Lyra. Keduanya memiliki penawaran yang sama, yaitu ada 3 pilihan:
+1.	Menjalankan Quest
+2.	Melihat Status NPC
+3.	Membeli Barang dari Inventory NPC
+
+Jika memilih untuk menjalankan quest, maka akan diberi tawaran beberapa quest yang tersedia dari setiap NPC ini. Setelah menjalankan quest ini, maka akan diberikan reward.
+Jika memilih melihat status NPC, maka akan menampilkan informasi pribadi NPC.
+Jika memilih untuk membeli barang, maka NPC akan menwarkan barang-barang yang bisa dibeli oleh pemain.
+
+-	Ketika pemain memilih bertarung dengan musuh, maka akan diminta untuk memilih musuhnya. Ada 2 musuh yang tersedia, yaitu Thor dan Zara. 
+
+CHALLENGE:
+Pemain atau musuh dapat melakukan serangan ketika:
+Attack (hit) >= Defense (tahan)
+Maka, Damage akan dikeluarkan untuk mengurangi HP
+
+Peperangan akan dimulai dari serangan karakter pemain, kemudian disusul dengan serangan dari musuh. Pemain bisa menggunakan senjata / skill nya ketika berperang, begitupun dengan musuhnya.
+
+-	Ketika memilih melihat status karakter, maka akan menampilkan informasi pribadi dari karakter pemain.
+
+-	Ketika memilih melihat inventory, maka akan menampilkan semua barang yang dimiliki oleh karakter pemain.
+
+-	Terakhir pilih “Keluar” untuk keluar dari game
 
