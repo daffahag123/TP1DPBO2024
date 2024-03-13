@@ -117,5 +117,6 @@ Ketika pemain memilih melihat inventory, maka akan menampilkan semua barang yang
 
 Terakhir pilih “Keluar” untuk keluar dari game
 
+# Dokumentasi Program
 
 
