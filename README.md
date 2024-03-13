@@ -12,22 +12,27 @@ Disini saya membutuhkan total 14 kelas untuk membuat program simulasi game, penj
    - Kelas mandiri.
    - Berisi atribut pribadinya yaitu (name_player, gender, dan character).
    - Memiliki sebuah object character tujuannya untuk menyimpan karakter utama (MainCharacter) yg dipilih oleh seorang pemain. Komposisi dengan kelas MC.
+     
 2.	Kelas Character
    - Kelas induk dari kelas MC dan NPC.
    - Berisi atribut pribadinya yaitu (id_character, name_character, gender, role, hp, dan defense, weapon, dan skill).
    - Memiliki sebuah object senjata tujuannya untuk menyimpan sebuah senjata, disini saya asumsikan satu karakter cuma bisa memegang satu senjata saja. Komposisi dengan kelas Weapon.
    - Memiliki array of object skill tujuannya untuk menyimpan skill-skill yang dimiliki setiap karakter (bisa punya banyak skill). Komposisi dengan kelas Skill.
+     
 3.	Kelas Skill
    - Kelas mandiri.
    - Berisi atribut pribadinya yaitu (name_skill, skill_type, dan value).
    - Memiliki sebuah object value tujuannya untuk memberi nilai apakah skill ini tipe nya penyerangan / penyembuhan. Komposisi dengan kelas Penyerangan & kelas Penyembuhan.
+     
 4.	Kelas Weapon
    - Kelas mandiri
    - Berisi atribut pribadinya yaitu (item_type, name_weapon, weapon_type, value, dan price).
    - Memiliki sebuah object value tujuannya untuk memberi nilai senjata ini memiliki tipe penyerangan. Karena senjata yg dimiliki semua karakter diset senjatanya bertipe penyerangan. Komposisi dengan kelas Penyerangan
+     
 5.	Kelas Penyerangan
    -	Kelas mandiri
    -	Berisi atribut pribadinya yaitu (attack dan damge). Jadi senjata dan skill itu memiliki jenis yg bisa menyerang kepada musuh.
+     
 6.	Kelas Penyembuhan
 -	Kelas mandiri
 -	Berisi atribut pribadinya yaitu (heal dan defense). Jadi skill itu memiliki jenis yg bisa menyembuhkan dirinya sendiri.
