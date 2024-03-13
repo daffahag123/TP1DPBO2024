@@ -62,9 +62,9 @@ Dalam program saya ini, Main Character dan NPC yang baik memiliki satu buah inve
     - Berisi atribut pribadinya yaitu (item_type, name_key, type_key, dan price).
       
 Desain kelas saya ini sebenarnya ada beberapa kelas yg mirip atribut nya yaitu kelas Weapon,kelas Potion, dan kelas Key. Namun saya buatkan terpisah karena untuk pengembangan desain game ke depan nantinya. Alasan lainnya:
-1. Dalam kelas Key tidak dicantumkan value, karena tidak membutuhkan itu.
-2. Dalam kelas Weapon dan kelas Potion atributnya mirip, tapi saya bedakan kelasnya karena nanti dalam satu kelas aka nada penambahan atribut. Contohnya, penambahan skin/aksesoris dalam kelas Weapon.
-3. Dalam program yang saya buatkan pun barang yang disediakan hanya kunci, ramuan, dan senjata. Jadi saya bisa lebih gampang untuk lebih mengatur jika ketiga barang itu dibuatkan kelas masing-masing.
+- Dalam kelas Key tidak dicantumkan value, karena tidak membutuhkan itu.
+- Dalam kelas Weapon dan kelas Potion atributnya mirip, tapi saya bedakan kelasnya karena nanti dalam satu kelas aka nada penambahan atribut. Contohnya, penambahan skin/aksesoris dalam kelas Weapon.
+- Dalam program yang saya buatkan pun barang yang disediakan hanya kunci, ramuan, dan senjata. Jadi saya bisa lebih gampang untuk lebih mengatur jika ketiga barang itu dibuatkan kelas masing-masing.
 Kemudian ke-3 kelas ini memiliki atribut price, dimana nantinya barang kunci, ramuan, dan senjata bisa dijual barang nya dan dapat dibeli juga. 
 
 11. Kelas NPC
