@@ -25,30 +25,30 @@ Disini saya membutuhkan total 14 kelas untuk membuat program simulasi game, penj
     - Memiliki sebuah object value tujuannya untuk memberi nilai apakah skill ini tipe nya penyerangan / penyembuhan. Komposisi dengan kelas Penyerangan & kelas Penyembuhan.
      
 4.	Kelas Weapon
-   - Kelas mandiri
-   - Berisi atribut pribadinya yaitu (item_type, name_weapon, weapon_type, value, dan price).
-   - Memiliki sebuah object value tujuannya untuk memberi nilai senjata ini memiliki tipe penyerangan. Karena senjata yg dimiliki semua karakter diset senjatanya bertipe penyerangan. Komposisi dengan kelas Penyerangan
+    - Kelas mandiri
+    - Berisi atribut pribadinya yaitu (item_type, name_weapon, weapon_type, value, dan price).
+    - Memiliki sebuah object value tujuannya untuk memberi nilai senjata ini memiliki tipe penyerangan. Karena senjata yg dimiliki semua karakter diset senjatanya bertipe penyerangan. Komposisi dengan kelas Penyerangan
      
 5.	Kelas Penyerangan
-   -	Kelas mandiri
-   -	Berisi atribut pribadinya yaitu (attack dan damge). Jadi senjata dan skill itu memiliki jenis yg bisa menyerang kepada musuh.
+    - Kelas mandiri
+    - Berisi atribut pribadinya yaitu (attack dan damge). Jadi senjata dan skill itu memiliki jenis yg bisa menyerang kepada musuh.
      
 6.	Kelas Penyembuhan
--	Kelas mandiri
--	Berisi atribut pribadinya yaitu (heal dan defense). Jadi skill itu memiliki jenis yg bisa menyembuhkan dirinya sendiri.
+    - Kelas mandiri
+    - Berisi atribut pribadinya yaitu (heal dan defense). Jadi skill itu memiliki jenis yg bisa menyembuhkan dirinya sendiri.
   
 Penjelasan mengenai skill dan senjata ini setiap karakter diset mempunya satu unit senjata yg diberi tipe penyerangan. Jadi tidak ada senjata yg tipe nya penyembuhan, tujuannya pada saat melawan satu sama lain bisa saling berantem. Untuk skill tipe nya bisa keduanya yaitu penyerangan dan penyembuhan.
 
 7.	Kelas MC (MainCharacter)
-   - Kelas turunan dari kelas Character.
-   - Berisi atribut pribadinya yaitu (level, exp, dan inventory).
-   - Memiliki sebuah object inventory tujuannya untuk menyimpan seluruh peralatan yang di dapat nantinya. Komposisi dengan kelas Inventory.
+    - Kelas turunan dari kelas Character.
+    - Berisi atribut pribadinya yaitu (level, exp, dan inventory).
+    - Memiliki sebuah object inventory tujuannya untuk menyimpan seluruh peralatan yang di dapat nantinya. Komposisi dengan kelas Inventory.
      
 Jadi nantinya setiap karakter yg akan dimainkan oleh player ini memiliki sebuah inventory/tas guna untuk menyimpan seluruh barang yg nantinya akan di dapatkan ketika menyelesaikan misi, membeli barang dan membunuh musuh. Setiap karakter akan memiliki level, dan semua karakternya ini diset dari level 0. Untuk menaikkan level ini dengan cara memperoleh exp. Setiap mendapatkan exp 100 maka akan naik level nya.
 
 8.	Kelas Inventory
-   - Kelas mandiri.
-   - Berisi atribut pribadinya yaitu (coin, key, poition, dan weapon). Jadi dalam inventory ini saya buat untuk menyimpan 4 kategori barang itu. Komposisi dengan kelas Key, kelas Potion, dan kelas Weapon.
+    - Kelas mandiri.
+    - Berisi atribut pribadinya yaitu (coin, key, poition, dan weapon). Jadi dalam inventory ini saya buat untuk menyimpan 4 kategori barang itu. Komposisi dengan kelas Key, kelas Potion, dan kelas Weapon.
 
 Dalam program saya ini, Main Character dan NPC yang baik memiliki satu buah inventory/tas. Semua barang yg bisa didapatkan di dalam game nya ini berupa coin, kunci, ramuan, dan senjata. Dimana coin dalam program saya digunakan sebagai uang dalam game untuk membeli barang dari inventory NPC baik.
 
