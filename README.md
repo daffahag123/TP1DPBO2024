@@ -53,9 +53,9 @@ Jadi nantinya setiap karakter yg akan dimainkan oleh player ini memiliki sebuah 
 Dalam program saya ini, Main Character dan NPC yang baik memiliki satu buah inventory/tas. Semua barang yg bisa didapatkan di dalam game nya ini berupa coin, kunci, ramuan, dan senjata. Dimana coin dalam program saya digunakan sebagai uang dalam game untuk membeli barang dari inventory NPC baik.
 
 9.	Kelas Potion
-   - Kelas mandiri.
-   - Berisi atribut pribadinya yaitu (item_type, name_potion, potion_type, value, dan price).
-   - Memiliki sebuah object value tujuannya untuk memberi nilai apakah potion ini tipe nya penyerangan (untuk memperkuat senjata) / penyembuhan (untuk penyembuhan diri sendiri). Komposisi dengan kelas Penyerangan & kelas Penyembuhan.
+    - Kelas mandiri.
+    - Berisi atribut pribadinya yaitu (item_type, name_potion, potion_type, value, dan price).
+    - Memiliki sebuah object value tujuannya untuk memberi nilai apakah potion ini tipe nya penyerangan (untuk memperkuat senjata) / penyembuhan (untuk penyembuhan diri sendiri). Komposisi dengan kelas Penyerangan & kelas Penyembuhan.
 
 10. Kelas Key
     - Kelas mandiri.
