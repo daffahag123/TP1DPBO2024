@@ -99,7 +99,7 @@ Setelah karakter dipilih, maka karakter dapat melakukan sesuatu dalam game, ada 
 4.	Melihat Inventory Karakter
 5.	Keluar
 
-- Ketika pemain memilih untuk berbicara dengan NPC maka akan diminta untuk berbicara dengan 2 orang pilihan yaitu ada Adrian dan Lyra. Keduanya memiliki penawaran yang sama, yaitu ada 3 pilihan:
+Ketika pemain memilih untuk berbicara dengan NPC maka akan diminta untuk berbicara dengan 2 orang pilihan yaitu ada Adrian dan Lyra. Keduanya memiliki penawaran yang sama, yaitu ada 3 pilihan:
 1.	Menjalankan Quest
 2.	Melihat Status NPC
 3.	Membeli Barang dari Inventory NPC
@@ -108,11 +108,14 @@ Jika memilih untuk menjalankan quest, maka akan diberi tawaran beberapa quest ya
 Jika memilih melihat status NPC, maka akan menampilkan informasi pribadi NPC.
 Jika memilih untuk membeli barang, maka NPC akan menwarkan barang-barang yang bisa dibeli oleh pemain.
 
-- Ketika pemain memilih bertarung dengan musuh, maka akan diminta untuk memilih musuhnya. Ada 2 musuh yang tersedia, yaitu Thor dan Zara. 
+Ketika pemain memilih bertarung dengan musuh, maka akan diminta untuk memilih musuhnya. Ada 2 musuh yang tersedia, yaitu Thor dan Zara. 
 Peperangan akan dimulai dari serangan karakter pemain, kemudian disusul dengan serangan dari musuh. Pemain bisa menggunakan senjata / skill nya ketika berperang, begitupun dengan musuhnya.
-- Ketika pemain memilih melihat status karakter, maka akan menampilkan informasi pribadi dari karakter pemain.
-- Ketika pemain memilih melihat inventory, maka akan menampilkan semua barang yang dimiliki oleh karakter pemain.
-- Terakhir pilih “Keluar” untuk keluar dari game
+
+Ketika pemain memilih melihat status karakter, maka akan menampilkan informasi pribadi dari karakter pemain.
+
+Ketika pemain memilih melihat inventory, maka akan menampilkan semua barang yang dimiliki oleh karakter pemain.
+
+Terakhir pilih “Keluar” untuk keluar dari game
 
 
 
