@@ -9,20 +9,20 @@ untuk keberkahan-Nya maka saya tidak melakukan kecurangan seperti yang telah dis
 # Desain Program
 Disini saya membutuhkan total 14 kelas untuk membuat program simulasi game, penjelasan kelas masing-masing dibawah ini.
 1.	Kelas Player
-   - Kelas mandiri.
-   - Berisi atribut pribadinya yaitu (name_player, gender, dan character).
-   - Memiliki sebuah object character tujuannya untuk menyimpan karakter utama (MainCharacter) yg dipilih oleh seorang pemain. Komposisi dengan kelas MC.
+    - Kelas mandiri.
+    - Berisi atribut pribadinya yaitu (name_player, gender, dan character).
+    - Memiliki sebuah object character tujuannya untuk menyimpan karakter utama (MainCharacter) yg dipilih oleh seorang pemain. Komposisi dengan kelas MC.
      
 2.	Kelas Character
-   - Kelas induk dari kelas MC dan NPC.
-   - Berisi atribut pribadinya yaitu (id_character, name_character, gender, role, hp, dan defense, weapon, dan skill).
-   - Memiliki sebuah object senjata tujuannya untuk menyimpan sebuah senjata, disini saya asumsikan satu karakter cuma bisa memegang satu senjata saja. Komposisi dengan kelas Weapon.
-   - Memiliki array of object skill tujuannya untuk menyimpan skill-skill yang dimiliki setiap karakter (bisa punya banyak skill). Komposisi dengan kelas Skill.
+    - Kelas induk dari kelas MC dan NPC.
+    - Berisi atribut pribadinya yaitu (id_character, name_character, gender, role, hp, dan defense, weapon, dan skill).
+    - Memiliki sebuah object senjata tujuannya untuk menyimpan sebuah senjata, disini saya asumsikan satu karakter cuma bisa memegang satu senjata saja. Komposisi dengan kelas Weapon.
+    - Memiliki array of object skill tujuannya untuk menyimpan skill-skill yang dimiliki setiap karakter (bisa punya banyak skill). Komposisi dengan kelas Skill.
      
 3.	Kelas Skill
-   - Kelas mandiri.
-   - Berisi atribut pribadinya yaitu (name_skill, skill_type, dan value).
-   - Memiliki sebuah object value tujuannya untuk memberi nilai apakah skill ini tipe nya penyerangan / penyembuhan. Komposisi dengan kelas Penyerangan & kelas Penyembuhan.
+    - Kelas mandiri.
+    - Berisi atribut pribadinya yaitu (name_skill, skill_type, dan value).
+    - Memiliki sebuah object value tujuannya untuk memberi nilai apakah skill ini tipe nya penyerangan / penyembuhan. Komposisi dengan kelas Penyerangan & kelas Penyembuhan.
      
 4.	Kelas Weapon
    - Kelas mandiri
